@@ -1,0 +1,19 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "Dit is het project van de klas 2DEV1. Hallo allemaal.",
+  "main": "index.js",
+  "author": "Julia Anseele",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  },
+  "scripts":{
+    "dev": "webpack --watch --mode development",
+    "prod": "webpack --mode production"  
+  }
+}
